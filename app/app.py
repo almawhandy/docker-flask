@@ -7,7 +7,7 @@ def hello():
     return "Bentornato! Non sono contento di vederti!"
 
 @app.route("/docker-flask")
-def hello():
+def hello2():
     return "Bentornato! Sono contento di vederti!"
 
 if __name__ == "__main__":
