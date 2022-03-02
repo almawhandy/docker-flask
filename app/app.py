@@ -6,5 +6,9 @@ app = Flask(__name__)
 def hello():
     return "Bentornato! Non sono contento di vederti!"
 
+@app.route("/docker-flask")
+def hello():
+    return "Bentornato! Sono contento di vederti!"
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
